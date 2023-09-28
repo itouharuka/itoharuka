@@ -88,7 +88,7 @@ img{
     background-position: center top;
 }
 #home{
-    background-image: url(../images/てのり.jpg);
+    background-image: url(てのり.jpg);
     min-height: 100vh;
 }
 #home .page-title{
@@ -96,7 +96,7 @@ img{
 }
 /* news */
 #news{
-    background-image: url(../images/news3.jpg);
+    background-image: url(news3.jpg);
     color: #432;
     height: 270px;
     margin-bottom: 40px;
@@ -210,7 +210,7 @@ article{
 }
 /* Menu */
 #photo{
-    /* background-image: url(../images/KAZUHIRO171013111_TP_V.jpg); */
+    /* background-image: url(KAZUHIRO171013111_TP_V.jpg); */
     /* min-height: 50vh; */
 }
 .menu-countent{
@@ -266,7 +266,7 @@ article{
 }
 /* contact */
 #contact{
-     background-image: url(../images/KAZUHIRO171013090_TP_V.jpg);
+     background-image: url(KAZUHIRO171013090_TP_V.jpg);
   /*  background-color: rgb(109, 109, 109);*/
 /*    min-height: 50vh;*/
 }
