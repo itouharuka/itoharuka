@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ハリネズミカフェ</title>
+    <meta name="description"
+        content="日常生活から１歩離れて、ハリネズミたちに癒されてみませんか？">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+
+        <link rel="icon" type="image/png" href="./images/image (1).png">
+</head>
+
+<body>
+
+      </div>
+  
+    <div id="home" class="big-bg">
+        <header class="page-header wrapper">
+            <h1><a href="index.html"><img class="logo" src="./images/heddder1.png" alt="ハリネズミカフェ"></a></h1>
+            <nav>
+                <button class="btn-menu">Menu</button>
+                <style>
+                    .btn-menu {
+                      position: absolute;
+                      top: 12px;
+                      right: 12px;
+                      border: 1px solid rgba(255, 255, 255, 0.5);
+                      color: rgb(7, 7, 7);
+                      padding: 0.5rem 1rem;
+                    }
+                  </style>
+                <ul class="main-nav">
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="photo.html">Photo</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+<!--  -->
+    <div class="home-content wrapper">
+        <h2 class="page-title">hedgehog's cafe</h2>
+        <p>ハリネズミたちの居るカフェで癒されてみませんか？</p>
+        <a class="button" href="photo.html">Let's Go</a>
+    </div>
+</div>
+<!--  -->
+
+
+</body>
+<script>
+    const btn = document.querySelector(".btn-menu");
+    const nav = document.querySelector(".main-nav");
+
+    btn.addEventListener("click", () => {
+      nav.classList.toggle("open-menu");
+      if (btn.innerHTML === "Menu") {
+        btn.innerHTML = "Close";
+      } else {
+        btn.innerHTML = "Menu";
+      }
+    });
+
+
+
+
+  </script>
+
+</html>
